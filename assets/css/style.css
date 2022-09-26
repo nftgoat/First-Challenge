@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-/* This section is styling the outside color of the whole web site */
+/* This section is styling the bodty web site */
 body {
     background-color: #d9dcd6;
 }
@@ -23,7 +23,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* This section styles the navagation bar */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -49,8 +49,8 @@ a {
 p {
     font-size: 16px;
 }
-
-.hero {
+/* This styles the big image under the header */
+.main {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -58,7 +58,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* These sections style the layout of the images and text in the 3 main sections */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -74,7 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* These sections stles the information and pictures on the right of the page or the "aside section" */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,20 +89,18 @@ p {
 .basic-style2 {
     margin-bottom: 32px;
     color: #ffffff;
-}
-
-.basic-style2 {
     margin-bottom: 10px;
     text-align: center;
 }
+
 
 .basic-style2 img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.basic-style {
+/* These sections style the 3 main sections of the page*/
+#search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -111,22 +109,40 @@ p {
     color: #ffffff;
 }
 
-.basic-style img {
+#online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+img {
     max-height: 200px;
 }
 
-.basic-style h2 {
+h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* This section styles the footer */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/* This styles the footer */
+
 .footer h2 {
     font-size: 20px;
 }
